@@ -45,7 +45,7 @@ export class DashboardPageComponent {
 
 	
 	addLazy(): void {
-		this.lazyService.load().then(_ => {
+		this.lazyService.loadDynImport().then(_ => {
 			this._add('lazy-dashboard-tile');
 		});
 	}
