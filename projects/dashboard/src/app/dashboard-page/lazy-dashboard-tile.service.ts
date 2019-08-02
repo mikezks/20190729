@@ -19,7 +19,7 @@ export class LazyDashboardTileService  {
             return Promise.resolve();
         }
 
-        const path = 'projects/important-app/src/app/lazy-dashboard-tile/lazy-dashboard-tile.module#LazyDashboardTileModule'
+        const path = 'projects/dashboard/src/app/lazy-dashboard-tile/lazy-dashboard-tile.module#LazyDashboardTileModule'
         
         return this
             .loader
